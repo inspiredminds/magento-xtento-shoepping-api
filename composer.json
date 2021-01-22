@@ -1,0 +1,33 @@
+{
+    "name": "inspiredminds/magento-xtento-shoepping-api",
+    "description": "Magento 2 module that integrates the Shöpping API for Xtento OrderExport.",
+    "type": "magento2-module",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Fritz Michael Gschwantner",
+            "email": "fmg@inspiredminds.at"
+        },
+        {
+            "name": "Michael Poppinger",
+            "email": "mp@inspiredminds.at"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/inspiredminds/magento-xtento-shoepping-api/issues",
+        "source": "https://github.com/inspiredminds/magento-xtento-shoepping-api"
+    },
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "magento/framework": ">=101.0.6",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InspiredMinds\\XtentoShoeppingApi\\": "src/"
+        },
+        "files": [
+            "src/registration.php"
+        ]
+    }
+}
